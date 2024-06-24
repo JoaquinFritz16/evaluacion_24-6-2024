@@ -4,6 +4,7 @@ export default function Ejercicio1() {
 
   const handleSelect = (e) => {
     Setlista(e.target.value)
+    console.log(lista)
     window.alert(lista)
   }
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import lista from './components/ElementoLista.js'
 export default function Ejercicio3() {
   return (
     <div>
