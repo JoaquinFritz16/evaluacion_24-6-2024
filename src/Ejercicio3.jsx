@@ -1,13 +1,12 @@
-import React from 'react'
-import lista from './components/ElementoLista.js'
+import React from 'react';
+import ElementosListas from './components/ElementosListas.js';
+
 export default function Ejercicio3() {
+  const elementosIniciales = ["Informatica Aplicada", "Programacion", "Robotica", "Matematica", "Fisica"];
+
   return (
     <div>
-      <h2>Ejercicio 3: Modularización</h2>
-      <p>Algunas materias de quinto año:</p>
-      <ul>
-        {/* lista de materias */}
-      </ul>
+      <ElementosListas elementosIniciales={elementosIniciales} />
     </div>
-  )
+  );
 }
