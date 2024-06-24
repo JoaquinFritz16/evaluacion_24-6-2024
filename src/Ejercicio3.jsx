@@ -6,6 +6,7 @@ export default function Ejercicio3() {
 
   return (
     <div>
+      <h1>Ejercicio 3</h1>
       <ElementosListas elementosIniciales={elementosIniciales} />
     </div>
   );
